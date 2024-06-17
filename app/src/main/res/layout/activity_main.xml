@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bck"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="153dp"
+        android:layout_height="52dp"
+        android:text="Help (SMS)"
+        android:textStyle="bold"
+        android:background="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+
+
+    <Button
+
+        android:id="@+id/mail"
+        android:layout_width="217dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
+        android:background="#4CAF50"
+        android:text="Help(Mail)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sms"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/nextpage"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:background="#009688"
+        android:text="Add Contacts"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        app:layout_constraintVertical_bias="0.54" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
